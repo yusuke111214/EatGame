@@ -8,7 +8,7 @@ public class BeltConveyor : MonoBehaviour
 
     void Start()
     {
-        GetComponent<Renderer>().material.color = Color.white; //ベルトコンベアの色を黒にする
+        GetComponent<Renderer>().material.color = Color.red; //ベルトコンベアの色を赤にする
     }
 
     void OnCollisionStay(Collision collision)
